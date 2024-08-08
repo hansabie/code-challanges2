@@ -40,7 +40,7 @@ const home = () => {
                   <h3 className="text-xl font-bold">
                     {item.name.first} {item.name.last}
                   </h3>
-                  <p className="text-sm">{item.email}</p>
+                  <p className="text-sm break-words">{item.email}</p>
                   <p className="text-sm">{item.phone}</p>
                 </div>
               );

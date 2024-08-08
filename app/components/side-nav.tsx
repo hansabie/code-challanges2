@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 export default function SideNav() {
   const dashboardMenu = [
-    { name: "Home", href: "/home" },
+    { name: "Home", href: "/" },
     { name: "About us", href: "/about" },
     { name: "Services", href: "/services" },
     { name: "Our Teams", href: "/teams" },
