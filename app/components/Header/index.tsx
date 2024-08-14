@@ -8,7 +8,7 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <div className="flex justify-between items-center gap-7 p-7 bg-black text-white sticky top-0 sm:px-20">
+    <div className="flex justify-between items-center gap-7 p-7 bg-black text-white sticky top-0 sm:px-20 z-10">
       <img
         className="xs:hidden sm:block w-12"
         src="boxing-icon.svg"

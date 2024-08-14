@@ -10,3 +10,8 @@
 li::marker {
   color: white;
 }
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}

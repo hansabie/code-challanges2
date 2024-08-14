@@ -3,60 +3,38 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import ShareButton from "../components/share-button";
 
 const About = () => {
   return (
     <>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2  bg-slate-100 rounded-tl-[25px] gap-3">
-        <figure
-          className=" h-full w-full mb-[-92px] rounded-tl-[25px] rounded-br-[25px] overflow-hidden max-h-[500px]
-        "
-        >
-          <Image
-            className="h-full w-full object-cover "
-            src="https://images.ctfassets.net/kr4ift5uwyye/7s9MoxcF0K70zWMb9o77Nd/4c454e58e7d75b723b2151d0eae93db1/nathan-dumlao-W3szznQ8yl8-unsplash.jpg"
-            alt="Judo"
-            width={500}
-            height={300}
-          />
-        </figure>
-        <div className="card-body text-black mt-[100px] md:mt-[0px] pr-3 ">
-          <h1 className="card-title font-bold text-4xl mb-7 pr-7">
-            Buka dunia yang lebih seru
-          </h1>
-          <p>
-            Selamat datang di Dunia Martial Art, tempat di mana seni, disiplin,
-            dan kekuatan bertemu dalam harmoni. Kami adalah komunitas yang
-            berdedikasi untuk mengajarkan dan mempraktikkan seni bela diri
-            dengan semangat yang tinggi dan komitmen yang tak tergoyahkan.
-          </p>
-        </div>
+      <div className=" inset-x-0 min-w-[100%] min-h-[100%] mt-0 mb-0 ">
+        <video controlsList="nodownload" autoPlay muted loop id="myvideo">
+          <source src="/boxing-vid.mp4" type="video/mp4" />
+        </video>
       </div>
-
-      <div className="grid sm:grid-cols-1 md:grid-cols-2  bg-slate-100 rounded-tl-[25px] mt-12 gap-3">
-        <figure
-          className=" h-full w-full mb-[-92px] rounded-tl-[25px] rounded-br-[25px] overflow-hidden max-h-[500px]
-       "
-        >
-          <Image
-            className="h-full w-full object-cover object-top "
-            src="https://www.eju.net/wp-content/uploads/2018/03/97e9882d23181feae2e14566db2e63aa.jpg"
-            alt="Champions"
-            width={500}
-            height={300}
-          />
-        </figure>
-        <div className="card-body text-black mt-[100px] md:mt-[0px] pr-3 ">
-          <h1 className="card-title font-bold text-4xl mb-7 pr-7">Champions</h1>
-          <p>
-            Selamat datang di Dunia Martial Art, tempat di mana seni, disiplin,
-            dan kekuatan bertemu dalam harmoni. Kami adalah komunitas yang
-            berdedikasi untuk mengajarkan dan mempraktikkan seni bela diri
-            dengan semangat yang tinggi dan komitmen yang tak tergoyahkan.
-          </p>
-        </div>
+      <ShareButton
+        text="Mau tanya tanya dulu dong min !"
+        size={50}
+        className="flex"
+      />
+      <div className=" font-Inter text-center flex flex-col justify-center items-center ">
+        <span>Martial Arts By You</span>
+        <h1 className="text-3xl font-light">What If You Were a Martial Art?</h1>
+        <p>
+          Let's discover the answer! Embrace your inner fighter by infusing your
+          unique style into a martial art with Martial Arts By You, our
+          co-creation service for Members. A bit more of this technique, a touch
+          less of that stance—just enjoy customizing a martial art that
+          resonates with who you are.
+        </p>
       </div>
     </>
   );
 };
 export default About;
+
+// <video width="400" height="600" autoPlay controls preload="none">
+// <source src="/boxing-vid.mp4" type="video/mp4" />
+// Your browser does not support the video tag.
+// </video>

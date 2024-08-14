@@ -7,17 +7,17 @@ const Service = () => {
       <section className="flex flex-col items-center">
         <h1 className="text-4xl font-bold mb-10">Membership</h1>
         <div className="flex xs:flex-col sm:flex-row gap-10">
-          <div className="bg-black text-white text-center p-10 rounded-lg flex flex-col gap-5">
+          <div className="bg-orange-500 text-white text-center p-10 rounded-lg flex flex-col gap-5">
             <h3 className="text-xl">1 Months</h3>
             <p className="text-sm">You can join the training for 1 month</p>
             <p className="text-xl">Rp. 500.000</p>
           </div>
-          <div className="bg-black text-white text-center p-10 rounded-lg flex flex-col gap-5">
+          <div className="bg-orange-500 text-white text-center p-10 rounded-lg flex flex-col gap-5">
             <h3 className="text-xl">3 Months</h3>
             <p className="text-sm">You can join the training for 3 month</p>
             <p className="text-xl">Rp. 1.300.000</p>
           </div>
-          <div className="bg-black text-white text-center p-10 rounded-lg flex flex-col gap-5">
+          <div className="bg-orange-500 text-white text-center p-10 rounded-lg flex flex-col gap-5">
             <h3 className="text-xl">6 Months</h3>
             <p className="text-sm">You can join the training for 6 month</p>
             <p className="text-xl">Rp. 2.500.000</p>
@@ -28,7 +28,7 @@ const Service = () => {
       <section className="flex flex-col items-center">
         <h1 className="text-4xl font-bold mb-10">Our Testimony</h1>
         <div className="flex xs:flex-col sm:flex-row gap-10">
-          <div className="bg-black text-white text-center p-10 rounded-lg flex flex-col gap-5">
+          <div className="bg-orange-500 text-white text-center p-10 rounded-lg flex flex-col gap-5">
             <h3 className="text-xl">Jamal.P - 1 Month Membership</h3>
             <p className="text-sm italic">
               "I joined the martial arts club for a one-month trial, and I've
@@ -42,7 +42,7 @@ const Service = () => {
               martial arts, and I'm seriously considering extending it."
             </p>
           </div>
-          <div className="bg-black text-white text-center p-10 rounded-lg flex flex-col gap-5">
+          <div className="bg-orange-500 text-white text-center p-10 rounded-lg flex flex-col gap-5">
             <h3 className="text-xl">Sulastri.S. - 3 Month Membership</h3>
             <p className="text-sm italic">
               "I opted for the three-month membership at the martial arts club,
@@ -57,7 +57,7 @@ const Service = () => {
               excited to continue my journey here."
             </p>
           </div>
-          <div className="bg-black text-white text-center p-10 rounded-lg flex flex-col gap-5">
+          <div className="bg-orange-500 text-white text-center p-10 rounded-lg flex flex-col gap-5">
             <h3 className="text-xl">Jajang.P. - 6 Month Membership</h3>
             <p className="text-sm italic">
               "Signing up for the six-month membership at this martial arts club

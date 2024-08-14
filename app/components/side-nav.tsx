@@ -12,7 +12,7 @@ export default function SideNav() {
   ];
   const pathName = usePathname();
   return (
-    <aside className="bg-slate-300 p-4 flex-col rounded-lg ">
+    <aside className="bg-slate-300 p-4 flex-col rounded-lg  ">
       <nav>
         <ul className="grid gap-2">
           {dashboardMenu.map((menu, index) => (
