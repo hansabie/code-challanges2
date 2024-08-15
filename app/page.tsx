@@ -26,7 +26,7 @@ const Home = async () => {
           <section className="flex items-center  flex-col-reverse sm:flex-row bg-[url('/boxing.jpeg')] h-full w-full bg-cover bg-center ">
             <div>
               <h1 className="text-7xl sm:text-8xl flex-col sm:flex-row font-bold text-white w-[100px] mb-auto mt-auto justify-center ">
-                Martial Arts School
+                Martial Arts Schools
               </h1>
               <div className="flex gap-3 mt-10">
                 <Link href="/services">

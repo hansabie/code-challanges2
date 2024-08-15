@@ -14,6 +14,7 @@ const Header = () => {
         src="boxing-icon.svg"
         alt="icon"
       />
+
       <ul className="flex justify-end text-center items-center gap-7">
         <li
           className={`${pathname == "/" && "bg-white rounded text-black p-2"}`}
