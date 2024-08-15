@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Carousel from "./components/carousel";
 import { createClient } from "contentful";
 import { useState, useEffect } from "react";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
@@ -20,8 +19,6 @@ const Home = async () => {
 
     const membership = response.items;
     const testimony = response2.items;
-
-    console.log(response.items[0].fields);
 
     return (
       <>

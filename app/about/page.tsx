@@ -33,8 +33,3 @@ const About = () => {
   );
 };
 export default About;
-
-// <video width="400" height="600" autoPlay controls preload="none">
-// <source src="/boxing-vid.mp4" type="video/mp4" />
-// Your browser does not support the video tag.
-// </video>
